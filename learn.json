@@ -1,6 +1,9 @@
 {
 	"slug" : "k-means-project-tutorial",
-	"title" : "K-means Project Tutorial",
+	"title" : {
+		"us": "K-means Project Tutorial",
+		"es": "Tutorial del proyecto K-means"
+	},
 	"preview": "https://github.com/4GeeksAcademy/k-means-project-tutorial/blob/main/preview.png?raw=true",
 	"solution": "https://github.com/4GeeksAcademy/k-means-project-tutorial/blob/main/solution.ipynb",
 	"status": "published",
@@ -11,7 +14,13 @@
 	"duration" : 2,
 	"template_url": "https://github.com/4GeeksAcademy/machine-learning-python-template",
     "projectType": "project",
-	"autoPlay": "false",
-	"description" : "Use the k-means algorithm to segment houses based on their coordinates."
-	"gitpod": true
+	"autoPlay": false,
+	"description" : {
+		"us":"Learn to analyze and model data using K-Means clustering in this step-by-step project. Use the California Housing dataset to classify homes by region and income, visualize clusters, and train a supervised model based on the results. A hands-on intro to unsupervised and supervised learning.",
+		"es":"Aprende a analizar y modelar datos utilizando el algoritmo de K-Means en este proyecto paso a paso. Usa el dataset de viviendas de California para clasificar casas por región e ingreso, visualizar los clústeres y entrenar un modelo supervisado basado en los resultados. Una introducción práctica al aprendizaje no supervisado y supervisado."
+    },
+	"gitpod": true,
+	"telemetry": {
+	    	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=439"
+	  }
 }
